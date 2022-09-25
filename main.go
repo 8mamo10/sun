@@ -12,7 +12,7 @@ func main() {
 		Latitude:  35.70012,
 		Longitude: 139.79013,
 		UtcOffset: +9.0,
-		Date:      time.Date(2022, 9, 13, 0, 0, 0, 0, time.UTC),
+		Date:      time.Date(2022, 9, 14, 0, 0, 0, 0, time.UTC),
 	}
 
 	sunrise, sunset, err := params.GetSunriseSunset()
